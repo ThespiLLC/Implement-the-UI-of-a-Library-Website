@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Epilogue', sans-serif;
+    color: #FFFEFE;
+}
+
+body, 
+html{
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+padding: 2em;
+background:  #14164A;
+color: #FFFEFE;
+}
+
+.top-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-left {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* align-items: center; */
+    grid-gap: 1rem;
+    }
+
+    .top-navigation-links {
+        display: grid;
+        grid-template-columns: repeat(7,auto);
+        grid-gap: 2rem !important;
+        align-items: center;
+        font-family: 'Jaldi';
+        font-size: 14.5px;
+    }
+
+    .library-title {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Jaldi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+.gray-rectangle-three {
+    position: absolute;
+    width: 1600px;
+    height: 20px;
+    background: #4A4446;
+}
+
+.divider {
+    max-width: 68px;
+    width: 100%;
+    height: 1px;
+    background:  #EECC1C;
+}
+
+.yellow-dividers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.yellow-rectangle-six {
+    width: 1600px;
+    height: 123px;
+    background: rgba(248, 217, 55, 0.79);
+
+}
+
+.yellow-rectangle-six {
+    position: absolute;
+    width: 1600px;
+    height: 123px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    color: #FFFEFE;
+    border: 1px solid rgba(0, 0, 0, 0.22)
+}
+
+.mid-page-pics{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info-background {
+    width: 324px;
+    height: 242px;
+    background-image: url(images/Faded\ Outside\ of\ Libary.png);
+}
+
+.contact-info-title {
+    width: 324px;
+    height: 242px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color:  #000000;
+    background-image: url(images/Faded\ Outside\ of\ Libary.png);
+}
+
+.main-page-text {
+    position: absolute;
+    width: 1600px;
+    height: 222px;
+background: rgba(20, 22, 74, 0.81);
+}
+
+.welcome-text {
+    position: absolute;
+    width: 489px;
+    height: 122px;
+    
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(248, 217, 55, 0.79);
+color: rgba(248, 217, 55, 0.79);
+}
+
+.welcome-paragraph {
+    position: absolute;
+    width: 652px;
+    height: 81px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+
+color: #FFFEFE;
+}
