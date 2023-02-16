@@ -1,3 +1,109 @@
+.container {
+    width: 100%;
+    display: none;
+}
+
+.gray-rectangle-three {
+    width: 100%;
+}
+
+.yellow-rectangle-six {
+    width: 100%;
+}
+
+.mid-page-dividers {
+    width: 375px;
+    padding: 30px 30px 20px;
+    font-family: arial;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+.main-page-text {
+    width: 100%;
+    padding: 0px 30px 20px;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 20px;
+}
+
+.mid-page-pics{
+    width: 100%;
+}
+
+.contact-info-background{
+    width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+    .container {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .mid-page-dividers {
+        width: 100%;
+        padding: 20px 0px 0px;
+    }
+
+    .main-page-text {
+        width: 100%;
+        padding: 20px 0px 0px;
+        line-height: 15px;
+    }
+
+    .mid-page-pics{
+       flex-direction: row !important;
+        padding-top: 30px;
+    }
+    
+    .contact-info-background{
+        padding-top: 30px;
+    }
+
+    .main-page-text {
+    position: absolute;
+    /* width: 1600px; */
+    /* height: 222px; */
+background: rgba(20, 22, 74, 0.81);
+}
+
+.welcome-text {
+    /* position: absolute; */
+    /* width: 489px; */
+    /* height: 122px; */
+    
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(248, 217, 55, 0.79);
+color: rgba(248, 217, 55, 0.79);
+}
+
+.welcome-paragraph {
+    /* position: absolute; */
+    /* width: 652px; */
+    /* height: 81px; */
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+
+color: #FFFEFE;
+}
+}
+    
 * {
     padding: 0;
     margin: 0;
@@ -90,6 +196,7 @@ color: #FFFEFE;
 
 .mid-page-pics{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -113,15 +220,15 @@ color: #FFFEFE;
 
 .main-page-text {
     position: absolute;
-    width: 1600px;
-    height: 222px;
+    /* width: 1600px; */
+    /* height: 222px; */
 background: rgba(20, 22, 74, 0.81);
 }
 
 .welcome-text {
-    position: absolute;
-    width: 489px;
-    height: 122px;
+    /* position: absolute; */
+    /* width: 489px; */
+    /* height: 122px; */
     
     font-family: 'Jaldi';
     font-style: normal;
@@ -137,9 +244,9 @@ color: rgba(248, 217, 55, 0.79);
 }
 
 .welcome-paragraph {
-    position: absolute;
-    width: 652px;
-    height: 81px;
+    /* position: absolute; */
+    /* width: 652px; */
+    /* height: 81px; */
     font-family: 'Jaldi';
     font-style: normal;
     font-weight: 400;
